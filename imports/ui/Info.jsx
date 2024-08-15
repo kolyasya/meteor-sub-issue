@@ -44,7 +44,7 @@ export const Info = () => {
   console.log(docId);
   console.log('render');
 
-  useSubscribe('links', [{ docId }]);
+  useSubscribe('links', { docId });
 
   return <AnotherComponent />;
 };
